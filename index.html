@@ -33,20 +33,21 @@
   </head>
   <body class="lato">
     <!-- navbar -->
-    <div class="navbar flex justify-around mt-10">
+    <div class="navbar flex justify-between mt-10 w-10/12 mx-auto">
       <div class="flex items-center">
         <a class="btn btn-ghost text-3xl"
           ><img src="./images/logo.webp" />Peddy</a
         >
       </div>
-      <div class="flex-none">
-        <ul class="menu menu-horizontal px-1 font-bold">
-          <li><a>Home</a></li>
-          <li><a>Shop</a></li>
-          <li><a>Contact</a></li>
-        </ul>
-      </div>
-      <div class="">
+
+      <div class="flex items-center gap-10">
+        <div class="flex-none">
+          <ul class="menu menu-horizontal px-1 font-bold text-lg">
+            <li><a>Home</a></li>
+            <li><a>Shop</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
         <div class="dropdown dropdown-end">
           <div
             tabindex="0"
@@ -62,7 +63,7 @@
           </div>
           <ul
             tabindex="0"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            class="menu menu-lg dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
               <a class="justify-between">
@@ -77,7 +78,78 @@
       </div>
     </div>
 
-    <h1>hello</h1>
+    <!-- Banner section -->
+    <div class="hero my-20">
+      <div class="hero-content text-center">
+        <div class="max-w-3xl space-y-7">
+          <h2 class="text-2xl font-bold text-gray-500">
+            Bringing Families Together ❤️‍🔥
+          </h2>
+          <h1 class="text-7xl font-bold">Your Path to Adoption Starts Here</h1>
+          <p class="py-6 text-xl">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a.
+          </p>
+          <button
+            class="btn font-medium btn-xl bg-[#0E7A81] text-white rounded-xl"
+          >
+            View More
+          </button>
+          <figure>
+            <img src="./images/pet.webp" alt="" />
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Adopt Your Best Friend -->
+
+    <div class="text-center space-y-6 mb-10">
+      <h1 class="text-5xl font-bold">Adopt Your Best Friend</h1>
+      <p class="max-w-3xl mx-auto text-xl">
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of
+        using Lorem Ipsum is that it has a.
+      </p>
+    </div>
+
+    <!-- Categories Button-->
+
+    <section id="btn-group" class="flex justify-center mb-10 gap-10 flex-wrap">
+      <button
+        class="btn btn-xl px-15 py-10 rounded-xl hover:rounded-full hover:bg-[#0E7A8110] hover:border-[#0E7A81]"
+      >
+        <figure class="w-7">
+          <img src="./images/dog btn.png" alt="" />
+        </figure>
+        Dogs
+      </button>
+      <button
+        class="btn btn-xl px-15 py-10  rounded-xl hover:rounded-full hover:bg-[#0E7A8110] hover:border-[#0E7A81]"
+      >
+        <figure class="w-7">
+          <img src="./images/dog btn.png" alt="" />
+        </figure>
+        Cat
+      </button>
+      <button
+        class="btn btn-xl px-15 py-10 rounded-xl hover:rounded-full hover:bg-[#0E7A8110] hover:border-[#0E7A81]"
+      >
+        <figure class="w-7">
+          <img src="./images/dog btn.png" alt="" />
+        </figure>
+        Rabbit
+      </button>
+      <button
+        class="btn btn-xl px-15 py-10 rounded-xl hover:rounded-full hover:bg-[#0E7A8110] hover:border-[#0E7A81]"
+      >
+        <figure class="w-7">
+          <img src="./images/dog btn.png" alt="" />
+        </figure>
+        Bird
+      </button>
+    </section>
 
     <script src="./main.js"></script>
   </body>
