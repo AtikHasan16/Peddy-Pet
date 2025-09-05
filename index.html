@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -94,7 +94,7 @@
           <button
             class="btn font-medium btn-xl bg-[#0E7A81] text-white rounded-xl"
           >
-            View More
+            <a href="#best-deals">View More</a>
           </button>
           <figure>
             <img src="./images/pet.webp" alt="" />
@@ -116,13 +116,16 @@
 
     <!-- Categories Button-->
 
-    <section id="btn-group" class="flex justify-center mb-10 gap-10 flex-wrap">
-      
-      
-    </section>
+    <section
+      id="btn-group"
+      class="flex justify-center mb-10 gap-10 flex-wrap"
+    ></section>
 
     <!-- Best Deals -->
-    <div class="flex justify-between items-center w-10/12 mx-auto mb-10">
+    <div
+      id="best-deals"
+      class="flex justify-between items-center w-10/12 mx-auto mb-10"
+    >
       <h1 class="text-3xl font-semibold">Best Deal For you</h1>
       <button class="btn font-medium btn-xl bg-[#0E7A81] text-white rounded-xl">
         Short by Price
@@ -130,7 +133,10 @@
     </div>
 
     <!-- Animal Card  -->
-    <section id="dog-card" class="mb-20"></section>
+    <section
+      id="Product-container"
+      class="mb-20 grid grid-cols-4 w-10/12 mx-auto gap-5"
+    ></section>
 
     <script src="./main.js"></script>
   </body>
